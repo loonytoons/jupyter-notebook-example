@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-nz-presentation"
+version = "0.1.0"
+description = ""
+authors = ["Alex Luneburg"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+pandas = "^2.2"
+numpy = "^2.0"
+matplotlib = "^3.9"
+jupyter = "^1.0"
+
+[tool.poetry.group.dev.dependencies]
+jupytext = "^1.16"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
