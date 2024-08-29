@@ -11,6 +11,9 @@ pandas = "^2.2"
 numpy = "^2.0"
 matplotlib = "^3.9"
 jupyter = "^1.0"
+seaborn = "^0.13.2"
+scikit-learn = "^1.5.1"
+data-morph-ai = "^0.2.0"
 
 [tool.poetry.group.dev.dependencies]
 jupytext = "^1.16"

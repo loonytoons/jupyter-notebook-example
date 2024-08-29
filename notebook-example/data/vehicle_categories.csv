@@ -1,0 +1,31 @@
+﻿type,category
+Saloon,car
+Stationwagon,car
+Trailer,trailer
+Quad - Four Wheeler,atv
+Boat Trailer,trailer
+Trailer - Heavy,trailer
+Moped,motorbike
+Caravan,mobile home
+Roadbike,motorbike
+Light Van,van
+Trail Bike,motorbike
+Mobile Machine,machine
+Utility,car
+Tractor,machine
+All Terrain Vehicle,atv
+Hatchback,car
+Sports Car,car
+Minibike,motorbike
+Service Coach,coach
+Flat Deck Truck,truck
+Mobile Home - Light,mobile home
+Other Truck,truck
+Farm Bike,motorbike
+Convertible,car
+Light Bus,coach
+Cab and Chassis Only,car
+Heavy Van,van
+Articulated Truck,truck
+Agricultural Machine,machine
+Motorbike,motorbike

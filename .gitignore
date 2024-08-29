@@ -1,1 +1,3 @@
 .ipynb_checkpoints/
+__pycache__/
+notebook-example/data_morph/output/
