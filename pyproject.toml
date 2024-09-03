@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Alex Luneburg"]
 readme = "README.md"
+packages = [
+    { include = "notebook-example" }
+]
 
 [tool.poetry.dependencies]
 python = "~3.11"
