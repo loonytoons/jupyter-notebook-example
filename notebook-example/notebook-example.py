@@ -56,6 +56,12 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
+# useful for local files, if they are likely to be changing
+# %load_ext autoreload
+# %autoreload 2
+
+from util.datamorph_example import generate_datamorph_example
+
 # %% [markdown]
 # If you're running in Colab:
 # - open Google colab
@@ -160,13 +166,6 @@ data[data['year'] == 0]
 # https://github.com/stefmolin/data-morph
 #
 # (This project is inspired by the Datasaurus Dozen, and based on the work completed in Data Morph (DOI: 10.5281/zenodo.7834197) and Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing by Justin Matejka and George Fitzmaurice (ACM CHI 2017)).
-
-# %%
-# useful for local files, if they are likely to be changing
-# %load_ext autoreload
-# %autoreload 2
-
-from util.datamorph_example import generate_datamorph_example
 
 # %%
 if in_colab:
